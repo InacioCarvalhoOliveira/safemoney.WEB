@@ -9,7 +9,10 @@
                 "build",
                 "${workspaceFolder}/safemoney.WEB.csproj",
                 "/property:GenerateFullPaths=true",
-                "/consoleloggerparameters:NoSummary"
+                "/consoleloggerparameters:NoSummary",
+                "--arch x64",
+                "--os linux",
+                "--configuration Debug"
             ],
             "problemMatcher": "$msCompile"
         },

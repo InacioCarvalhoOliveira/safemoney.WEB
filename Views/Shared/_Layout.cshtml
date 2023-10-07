@@ -1,49 +1,68 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - safemoney.WEB</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/safemoney.WEB.styles.css" asp-append-version="true" />
-</head>
-<body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+   <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>@ViewData["Title"] - Home</title>
+      <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+      <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+      <link rel="stylesheet" href="~/safemoney.WEB.styles.css" asp-append-version="true" />
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+   </head>
+   <body>
+      <header>
+         <nav class="navbar navbar-expand-md navbar-light bg-light border-bottom box-shadow mb-3">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">safemoney.WEB</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                    </ul>
-                </div>
+               <a class="txthover navbar-brand" asp-controller="Home" asp-action="Index">SafeMoney</a>
+               <button class="navbar-toggler ml-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation;" style="margin-top: 0px;margin-right: 5%;">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ms-auto mb-2 mb-md-0" style="margin-right: 35%;">
+                     <li class="nav-item">
+                        <a class="txthover nav-link" asp-controller="Home" asp-action="Index">Home</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="txthover nav-link" asp-controller="Home">Funcionalidades</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="txthover nav-link" asp-controller="Home">Contato</a>
+                     </li>
+                  </ul>
+                  <form class="d-flex">
+                     <input class="form-control form-control-sm me-2" type="text" placeholder="Usuário" aria-label="Usuário">
+                     <div class="input-group">
+                        <input class="form-control form-control-sm me-2" type="password" placeholder="Senha" aria-label="Senha" id="passwordField">
+                        <span class="input-group-text">
+                        <input type="checkbox"  id="showPasswordCheckbox">
+                        </span>
+                     </div>
+                     <div class="container">
+                        <button class="btn btn-success btn-sm me-2" type="submit">Entrar</button>
+                        <button class="btn btn-success btn-sm me-2" asp-controller="Login" asp-action="LoginPage">Nova Conta</button>
+                     </div>
+                  </form>
+               </div>
             </div>
-        </nav>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
+         </nav>
+         <style>
+            .checkbox-margin {
+            margin-top: 0.5rem;
+            }
+         </style>
+         <script>
+            document.getElementById('showPasswordCheckbox').addEventListener('change', function () {
+                const passwordInput = document.getElementById('passwordField');
+                passwordInput.setAttribute('type', this.checked ? 'text' : 'password');
+            });
+         </script>
+      </header>
+      @RenderBody()
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="~/js/site.js" asp-append-version="true"></script>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2023 - safemoney.WEB - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
-    </footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    @await RenderSectionAsync("Scripts", required: false)
-</body>
+      @await RenderSectionAsync("Scripts", required: false)
+   </body>
 </html>
