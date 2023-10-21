@@ -34,7 +34,9 @@ ViewData["Title"] = "Login Page";
                               <div id="mensagemErro" class="text-danger"></div>
                            </div>
                            <div class="pt-1 mb-4">
-                           <button id="criarContaBtn" class="btn btn-success btn-lg btn-block" type="button" onclick="criarConta()" disabled>Criar conta</button>                         
+                           <button id="criarContaBtn" class="btn btn-success btn-lg btn-block" type="button" onclick="criarConta()" disabled>Criar conta</button>  
+                               
+                           <button id="criarContaBtn" class="btn btn-success btn-lg btn-block" type="button" asp-controller="Login" asp-action="PersonalHome">Criar conta</button>   
                            <div id="mensagem" style="display: none;"></div><p/>
                            <a href="#!" class="small text-muted">Terms of use.</a>
                            <a href="#!" class="small text-muted">Privacy policy</a>

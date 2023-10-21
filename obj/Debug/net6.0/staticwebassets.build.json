@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mr7nt5Pyw1Cvco6ttxlBQhwf8ztMCEWs4pKUF0vdbBQ=",
+  "Hash": "Rnm47vsuqYoWPfRI7B0CGqyrTUai0MWPihN96c6LxCo=",
   "Source": "safemoney.WEB",
   "BasePath": "_content/safemoney.WEB",
   "Mode": "Default",
@@ -17,10 +17,10 @@
   ],
   "Assets": [
     {
-      "Identity": "/media/inacio/HDD/IFSP/TCC/safemoney.WEB/obj/Debug/net6.0/linux-x64/scopedcss/bundle/safemoney.WEB.styles.css",
+      "Identity": "/media/inacio/HDD/IFSP/TCC/safemoney.WEB/obj/Debug/net6.0/ubuntu.20.04-x64/scopedcss/bundle/safemoney.WEB.styles.css",
       "SourceId": "safemoney.WEB",
       "SourceType": "Computed",
-      "ContentRoot": "/media/inacio/HDD/IFSP/TCC/safemoney.WEB/obj/Debug/net6.0/linux-x64/scopedcss/bundle/",
+      "ContentRoot": "/media/inacio/HDD/IFSP/TCC/safemoney.WEB/obj/Debug/net6.0/ubuntu.20.04-x64/scopedcss/bundle/",
       "BasePath": "_content/safemoney.WEB",
       "RelativePath": "safemoney.WEB.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/media/inacio/HDD/IFSP/TCC/safemoney.WEB/obj/Debug/net6.0/linux-x64/scopedcss/bundle/safemoney.WEB.styles.css"
+      "OriginalItemSpec": "/media/inacio/HDD/IFSP/TCC/safemoney.WEB/obj/Debug/net6.0/ubuntu.20.04-x64/scopedcss/bundle/safemoney.WEB.styles.css"
     },
     {
-      "Identity": "/media/inacio/HDD/IFSP/TCC/safemoney.WEB/obj/Debug/net6.0/linux-x64/scopedcss/projectbundle/safemoney.WEB.bundle.scp.css",
+      "Identity": "/media/inacio/HDD/IFSP/TCC/safemoney.WEB/obj/Debug/net6.0/ubuntu.20.04-x64/scopedcss/projectbundle/safemoney.WEB.bundle.scp.css",
       "SourceId": "safemoney.WEB",
       "SourceType": "Computed",
-      "ContentRoot": "/media/inacio/HDD/IFSP/TCC/safemoney.WEB/obj/Debug/net6.0/linux-x64/scopedcss/projectbundle/",
+      "ContentRoot": "/media/inacio/HDD/IFSP/TCC/safemoney.WEB/obj/Debug/net6.0/ubuntu.20.04-x64/scopedcss/projectbundle/",
       "BasePath": "_content/safemoney.WEB",
       "RelativePath": "safemoney.WEB.bundle.scp.css",
       "AssetKind": "All",
@@ -48,7 +48,24 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/media/inacio/HDD/IFSP/TCC/safemoney.WEB/obj/Debug/net6.0/linux-x64/scopedcss/projectbundle/safemoney.WEB.bundle.scp.css"
+      "OriginalItemSpec": "/media/inacio/HDD/IFSP/TCC/safemoney.WEB/obj/Debug/net6.0/ubuntu.20.04-x64/scopedcss/projectbundle/safemoney.WEB.bundle.scp.css"
+    },
+    {
+      "Identity": "/media/inacio/HDD/IFSP/TCC/safemoney.WEB/wwwroot/css/personalHome.css",
+      "SourceId": "safemoney.WEB",
+      "SourceType": "Discovered",
+      "ContentRoot": "/media/inacio/HDD/IFSP/TCC/safemoney.WEB/wwwroot/",
+      "BasePath": "_content/safemoney.WEB",
+      "RelativePath": "css/personalHome.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/personalHome.css"
     },
     {
       "Identity": "/media/inacio/HDD/IFSP/TCC/safemoney.WEB/wwwroot/css/site.css",
@@ -202,6 +219,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/js/LoginPage.js"
+    },
+    {
+      "Identity": "/media/inacio/HDD/IFSP/TCC/safemoney.WEB/wwwroot/js/PersonalHome.js",
+      "SourceId": "safemoney.WEB",
+      "SourceType": "Discovered",
+      "ContentRoot": "/media/inacio/HDD/IFSP/TCC/safemoney.WEB/wwwroot/",
+      "BasePath": "_content/safemoney.WEB",
+      "RelativePath": "js/PersonalHome.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/PersonalHome.js"
     },
     {
       "Identity": "/media/inacio/HDD/IFSP/TCC/safemoney.WEB/wwwroot/js/site.js",

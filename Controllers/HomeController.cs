@@ -25,7 +25,16 @@ public class HomeController : Controller
     {
         return View();
     }
-
+    public IActionResult LoginPagecopy()
+    {
+        return View();
+    }
+    public IActionResult PersonalHome()
+    {
+        return View();
+    }
+    
+    
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {

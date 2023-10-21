@@ -3,16 +3,16 @@
  using safemoney.WEB.Models;
  namespace safemoney.API.Controllers
  {
- public class LoginController : Controller
+ public class PersonalHomeController : Controller
  {
-     private readonly ILogger<LoginController> _logger;
-     public LoginController(ILogger<LoginController> logger)
+     private readonly ILogger<PersonalHomeController> _logger;
+     public PersonalHomeController(ILogger<PersonalHomeController> logger)
      {
          _logger = logger;
      }
-     public IActionResult LoginPage()
+     public IActionResult PersonalHome()
      {
-         return View("LoginPage");
+         return View();
      }
      [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
      public IActionResult Error()

@@ -16303,6 +16303,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/media/inacio/HDD/IFSP/TCC/safemoney.WEB/Views/Login/LoginPagecopy.cshtml",
+      "TargetPath": "Views\\Login\\LoginPagecopy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/media/inacio/HDD/IFSP/TCC/safemoney.WEB/Views/Login/LoginPage.cshtml",
       "TargetPath": "Views\\Login\\LoginPage.cshtml",
       "FileKind": "mvc"
@@ -16330,6 +16335,11 @@
     {
       "FilePath": "/media/inacio/HDD/IFSP/TCC/safemoney.WEB/Views/Home/Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/media/inacio/HDD/IFSP/TCC/safemoney.WEB/Views/Login/PersonalHome.cshtml",
+      "TargetPath": "Views\\Login\\PersonalHome.cshtml",
       "FileKind": "mvc"
     },
     {

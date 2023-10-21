@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "vjlPtGhicdbaS2pDeOjdPcR/SqyKZuYXYP1v9+4xGWKhcwV0+NITQOTYg67uUaRBP/olMDvB/ATysRLn6tbRww==",
+  "dgSpecHash": "k8KEoIRWYePcodZ1KbeF9QCBQcYSePTG8KJAVSOdM338SXGkasADs09J/n5sn/cbF13RSW5EXl2FIc7sI/ZpRQ==",
   "success": true,
   "projectFilePath": "/media/inacio/HDD/IFSP/TCC/safemoney.WEB/safemoney.WEB.csproj",
   "expectedPackageFiles": [
+    "/home/inacio/.nuget/packages/microsoft.netcore.app.runtime.linux-x64/6.0.22/microsoft.netcore.app.runtime.linux-x64.6.0.22.nupkg.sha512",
+    "/home/inacio/.nuget/packages/microsoft.aspnetcore.app.runtime.linux-x64/6.0.22/microsoft.aspnetcore.app.runtime.linux-x64.6.0.22.nupkg.sha512",
     "/home/inacio/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.22/microsoft.netcore.app.host.linux-x64.6.0.22.nupkg.sha512"
   ],
   "logs": []
